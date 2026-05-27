@@ -66,7 +66,8 @@
   - type: XenoClaws
     clawType: Sharp
   - type: MeleeWeapon
-    attackRate: 0.75
+    #attackRate: 0.75
+    # Коммент скорости атаки, дабы она стала базовой
     damage:
       groups:
         Brute: 35
@@ -114,8 +115,10 @@
   - type: XenoLeap
     plasmaCost: 20
     delay: 0
-    moveDelayTime: 1.5
-    knockdownTime: 5
+    moveDelayTime: 1 
+    # moveDelayTime был 1.5
+    knockdownTime: 4 
+    # knockdownTime был 5
     leapSound: /Audio/_RMC14/Xeno/alien_pounce.ogg
     knockdownRequiresInvisibility: true
     unrootOnMelee: true
